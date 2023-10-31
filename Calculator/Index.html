@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atyle.css">
+    <title>Calculator | NP@</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h2>Calculator</h2>
+            <div class="div-input"  placeholder="Enter your Numbers">
+                <input type="text" id="display">
+            </div>
+            <div class="div-btn">
+                <button class="Calcul" onclick="displayClear()">C</button>
+               
+                <button   onclick="displayResult('1')">1</button>
+                <button  onclick="displayResult('2')">2</button><br>
+                <button  onclick="displayResult('3')">3</button>
+                <button  onclick="displayResult('4')">4</button>
+                <button  onclick="displayResult('5')">5</button><br>
+                <button  onclick="displayResult('6')">6</button>
+                <button  onclick="displayResult('7')">7</button>
+                <button  onclick="displayResult('8')">8</button><br>
+                <button  onclick="displayResult('9')">9</button>
+                <button  onclick="displayCalculator()" >=</button>
+                <button class="Calcul" onclick="displayResult('/')">/</button><br>
+                <button class="Calcul" onclick="displayResult('+')">+</button>
+                <button class="Calcul" onclick="displayResult('-')">-</button>
+                <button class="Calcul" onclick="displayResult('*')">*</button><br>
+                <button onclick="displayResult('0')">0</button>
+                <button class="Calcul" onclick="displayResult('%')">%</button>
+                <button class="Calcul" onclick="displayResult('.')">.</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
