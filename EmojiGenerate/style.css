@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: rgb(218, 215, 221);
+    
+}
+
+.div-emoji{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px  3px  6px white;
+    border-radius: 5px;
+}
+.div-emoji button{
+    width: 150px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(224, 210, 16);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 80%;
+    border: none;
+    transition: all 0.3s  ease-in;
+}
+
+.div-emoji button:hover{
+    background: black;
+    color: white;
+}
+
+.div-emoji h2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+    font-size: 80px;
+}
+
+
+.div-emoji h1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 15%;
+    font-size: 25px
+}
