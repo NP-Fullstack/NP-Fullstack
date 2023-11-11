@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,500&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-size: 20px;
+
+  
+}
+
+
+.div-form{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    background: white;
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+    border-radius: 5px;
+   
+
+}
+
+.div-form input {
+    display: block;
+    margin: 0px 0px 30px 0px  ;
+}
+
+.div-form button{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 80%;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background:  rgb(0, 102, 255);
+    border: none;
+    transition:  all 0.3755ms  ease-in; 
+}
+
+
+.div-form  button:hover{
+    background:rgb(0, 55, 138) ;
+   
+    
+}
+
+.div-form input{
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    border:  solid 1px  rgb(197, 181, 181);
+    top: 100px;
+}
+
+
+
+.div-form a{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 73%;
+    color: red;
+    font-size: 13px ;
+
+}
+
+.div-form h2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 10%;
+}
+
+.span-tree{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+   font-size: 15px ;
+   color: rgb(126, 124, 124);
+   top: 18%;
+}
